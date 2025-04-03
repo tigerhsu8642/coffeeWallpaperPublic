@@ -1,0 +1,10 @@
+<view class="wallpaper-detail-page">
+	<image
+	  src="{{ thumb }}"
+	  class="wallpaper-detail"
+	  mode="aspectFill"
+	  lazy-load
+	/>
+	<view class="download-button" bindtap="downloadClick">下载壁纸</view>
+</view>
+<t-toast id="t-toast" />

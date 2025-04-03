@@ -1,0 +1,19 @@
+<view class="goods-list-wrap" id="{{independentID}}">
+	<block wx:for="{{wallpapersList}}" wx:for-item="item" wx:key="index">
+		<goods-card
+		  id="{{independentID}}-gd-{{index}}"
+		  data="{{item}}"
+		  wr-class
+		  class="goods-card-inside"
+		  bind:thumb="onClickGoodsThumb"
+		  bind:click="onClickGoods"
+		  thresholds="{{thresholds}}"
+		  data-index="{{index}}"
+		/>
+		<!--
+		 
+		bind:add-cart="onAddCart"
+		-->
+	</block>
+</view>
+

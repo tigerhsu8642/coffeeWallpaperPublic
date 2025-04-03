@@ -1,0 +1,15 @@
+<view
+  id="{{independentID}}"
+  class="goods-card"
+  bind:tap="clickHandle"
+  data-goods="{{ goods }}"
+>
+	<image
+	  wx:if="{{ !!goods.thumb }}"
+	  class="goods-card__img"
+	  src="{{ goods.thumb }}"
+	  mode="aspectFill"
+	  lazy-load
+	/>
+</view>
+

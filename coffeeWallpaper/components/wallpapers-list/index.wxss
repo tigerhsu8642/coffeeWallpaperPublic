@@ -1,0 +1,11 @@
+.goods-list-wrap {
+/*  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0;
+  background: #fff;
+}

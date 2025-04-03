@@ -1,0 +1,11 @@
+<view class="wallpaper-detail-page">
+	<video
+	  src="{{ thumb }}"
+	  controls
+	  class="wallpaper-detail"
+	  object-fit="cover"
+	  show-fullscreen-btn
+	/>
+	<view class="download-button" bindtap="downloadClick">下载动态壁纸</view>
+</view>
+<t-toast id="t-toast" />
